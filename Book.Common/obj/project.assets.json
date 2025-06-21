@@ -1,0 +1,171 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Book.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Book.Domain": "1.0.0",
+          "Book.Infrustructure": "1.0.0",
+          "Book.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Book.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Book.Application.dll": {}
+        }
+      },
+      "Book.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Book.Infrustructure": "1.0.0",
+          "Book.Web": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Book.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Book.Domain.dll": {}
+        }
+      },
+      "Book.Infrustructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Book.Infrustructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Book.Infrustructure.dll": {}
+        }
+      },
+      "Book.Web/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Book.Web.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Book.Web.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Book.Application/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibrary1/Book.Application.csproj",
+      "msbuildProject": "../ClassLibrary1/Book.Application.csproj"
+    },
+    "Book.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Book.Domain/Book.Domain.csproj",
+      "msbuildProject": "../Book.Domain/Book.Domain.csproj"
+    },
+    "Book.Infrustructure/1.0.0": {
+      "type": "project",
+      "path": "../Book.Infrustructure/Book.Infrustructure.csproj",
+      "msbuildProject": "../Book.Infrustructure/Book.Infrustructure.csproj"
+    },
+    "Book.Web/1.0.0": {
+      "type": "project",
+      "path": "../BookWeb/Book.Web.csproj",
+      "msbuildProject": "../BookWeb/Book.Web.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Book.Application >= 1.0.0",
+      "Book.Domain >= 1.0.0",
+      "Book.Infrustructure >= 1.0.0",
+      "Book.Web >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\siama\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Project\\BookWeb\\Book.Common\\Book.Common.csproj",
+      "projectName": "Book.Common",
+      "projectPath": "G:\\Project\\BookWeb\\Book.Common\\Book.Common.csproj",
+      "packagesPath": "C:\\Users\\siama\\.nuget\\packages\\",
+      "outputPath": "G:\\Project\\BookWeb\\Book.Common\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\siama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj": {
+              "projectPath": "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj"
+            },
+            "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
+              "projectPath": "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj"
+            },
+            "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj": {
+              "projectPath": "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj"
+            },
+            "G:\\Project\\BookWeb\\ClassLibrary1\\Book.Application.csproj": {
+              "projectPath": "G:\\Project\\BookWeb\\ClassLibrary1\\Book.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
