@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Project\\BookWeb\\ClassLibrary1\\Book.Application.csproj": {}
+    "G:\\BookWeb\\BookWeb\\ClassLibrary1\\Book.Application.csproj": {}
   },
   "projects": {
-    "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj": {
+    "G:\\BookWeb\\BookWeb\\Book.Domain\\Book.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj",
+        "projectUniqueName": "G:\\BookWeb\\BookWeb\\Book.Domain\\Book.Domain.csproj",
         "projectName": "Book.Domain",
-        "projectPath": "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj",
+        "projectPath": "G:\\BookWeb\\BookWeb\\Book.Domain\\Book.Domain.csproj",
         "packagesPath": "C:\\Users\\siama\\.nuget\\packages\\",
-        "outputPath": "G:\\Project\\BookWeb\\Book.Domain\\obj\\",
+        "outputPath": "G:\\BookWeb\\BookWeb\\Book.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
-                "projectPath": "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj"
+              "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
+                "projectPath": "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj"
               },
-              "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj": {
-                "projectPath": "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj"
+              "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj": {
+                "projectPath": "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj"
               }
             }
           }
@@ -76,14 +76,14 @@
         }
       }
     },
-    "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
+    "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj",
+        "projectUniqueName": "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj",
         "projectName": "Book.Infrustructure",
-        "projectPath": "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj",
+        "projectPath": "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj",
         "packagesPath": "C:\\Users\\siama\\.nuget\\packages\\",
-        "outputPath": "G:\\Project\\BookWeb\\Book.Infrustructure\\obj\\",
+        "outputPath": "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -121,6 +121,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -141,14 +151,14 @@
         }
       }
     },
-    "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj": {
+    "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj",
+        "projectUniqueName": "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj",
         "projectName": "Book.Web",
-        "projectPath": "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj",
+        "projectPath": "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj",
         "packagesPath": "C:\\Users\\siama\\.nuget\\packages\\",
-        "outputPath": "G:\\Project\\BookWeb\\BookWeb\\obj\\",
+        "outputPath": "G:\\BookWeb\\BookWeb\\BookWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,7 +178,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
+                "projectPath": "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -186,6 +200,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -209,14 +239,14 @@
         }
       }
     },
-    "G:\\Project\\BookWeb\\ClassLibrary1\\Book.Application.csproj": {
+    "G:\\BookWeb\\BookWeb\\ClassLibrary1\\Book.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Project\\BookWeb\\ClassLibrary1\\Book.Application.csproj",
+        "projectUniqueName": "G:\\BookWeb\\BookWeb\\ClassLibrary1\\Book.Application.csproj",
         "projectName": "Book.Application",
-        "projectPath": "G:\\Project\\BookWeb\\ClassLibrary1\\Book.Application.csproj",
+        "projectPath": "G:\\BookWeb\\BookWeb\\ClassLibrary1\\Book.Application.csproj",
         "packagesPath": "C:\\Users\\siama\\.nuget\\packages\\",
-        "outputPath": "G:\\Project\\BookWeb\\ClassLibrary1\\obj\\",
+        "outputPath": "G:\\BookWeb\\BookWeb\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -237,14 +267,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj": {
-                "projectPath": "G:\\Project\\BookWeb\\Book.Domain\\Book.Domain.csproj"
+              "G:\\BookWeb\\BookWeb\\Book.Domain\\Book.Domain.csproj": {
+                "projectPath": "G:\\BookWeb\\BookWeb\\Book.Domain\\Book.Domain.csproj"
               },
-              "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
-                "projectPath": "G:\\Project\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj"
+              "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj": {
+                "projectPath": "G:\\BookWeb\\BookWeb\\Book.Infrustructure\\Book.Infrustructure.csproj"
               },
-              "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj": {
-                "projectPath": "G:\\Project\\BookWeb\\BookWeb\\Book.Web.csproj"
+              "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj": {
+                "projectPath": "G:\\BookWeb\\BookWeb\\BookWeb\\Book.Web.csproj"
               }
             }
           }
