@@ -1,0 +1,12 @@
+G:\BookWeb\BookWeb\Book.Common\bin\Debug\net8.0\Book.Common.deps.json
+G:\BookWeb\BookWeb\Book.Common\bin\Debug\net8.0\Book.Common.dll
+G:\BookWeb\BookWeb\Book.Common\bin\Debug\net8.0\Book.Common.pdb
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.AssemblyInfoInputs.cache
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.AssemblyInfo.cs
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.csproj.CoreCompileInputs.cache
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.sourcelink.json
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.dll
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\refint\Book.Common.dll
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\Book.Common.pdb
+G:\BookWeb\BookWeb\Book.Common\obj\Debug\net8.0\ref\Book.Common.dll
